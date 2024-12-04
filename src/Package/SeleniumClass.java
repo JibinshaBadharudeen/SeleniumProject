@@ -62,7 +62,7 @@ public class SeleniumClass {
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","username","password");
         java.sql.Statement statement = connection.createStatement();
         
-        String query ="Selehghhsrfct * from tablename";
+        String query ="Selehghdschsrfct * from tablename";
         statement.execute(query);
         
         driver.quit();
